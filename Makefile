@@ -4,3 +4,4 @@ epeg:
 test: epeg
 	./epeg --inset --max=100,100 test/tarsier.jpg test/tarsier-thumb.jpg
 
+.PHONY: epeg test
